@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSource>
+    <metadataSources>https://infra.clarin.eu/aai/prod_md_about_clarin_erics_idp.xml</metadataSources>
+    <metadataSources>https://infra.clarin.eu/aai/prod_md_about_spf_idps.xml</metadataSources>
+    <!-- weight overrides -->
+    <weights>
+        <entry>
+            <key>https://idp.clarin.eu</key>
+            <value>-100</value>
+        </entry>
+    </weights>
+    <!-- country code override -->
+    <countries>
+        <entry>
+            <key>https://idp.clarin.eu</key>
+            <value>EU</value>
+        </entry>
+	<entry>
+            <key>https://wayf.wayf.dk</key>
+            <value>DK</value>
+        </entry>
+    </countries>
+</metadataSource>
