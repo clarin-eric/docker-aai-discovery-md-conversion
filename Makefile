@@ -1,7 +1,12 @@
-build:
-	docker build -t docker.clarin.eu/aai-md-conversion:1.0.1 .
-
-push: 
-	docker push docker.clarin.eu/aai-md-conversion:1.0.1
+VERSION="1.0.2"
+NAME="aai-md-conversion"
+REPOSITORY="docker.clarin.eu"
+IMAGE="${REPOSITORY}/${NAME}:${VERSION}"
 
 all: build
+
+build:
+	docker build -t ${IMAGE} .
+
+push: 
+	docker push ${IMAGE}
