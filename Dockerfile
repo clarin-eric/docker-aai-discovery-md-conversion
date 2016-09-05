@@ -1,4 +1,4 @@
-FROM docker.clarin.eu/base:1.0.0
+FROM docker.clarin.eu/base:1.0.1
 
 COPY input.xml /opt/input.xml
 COPY run.sh /opt/run.sh
