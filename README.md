@@ -1,5 +1,3 @@
 # CLARIN docker discovery metadata conversion service image
 
-two environment parameters are required:
-MD_API_HOST
-MD_API_PORT
+Merged and migrated (in)to https://gitlab.com/CLARIN-ERIC/docker-aai-discovery.
